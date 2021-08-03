@@ -1,0 +1,462 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="elong.androidApp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the "MyLocation" functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Chapter 2,3: Cấp quyền đọc, send và call để thực hiện implicit intent và content provider -->
+15-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:10:5-11:69
+15-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:11:13-67
+16    <uses-permission android:name="android.permission.SEND_SMS" />
+16-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:12:5-66
+16-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:12:22-64
+17    <uses-permission android:name="android.permission.READ_SMS" />
+17-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:13:5-66
+17-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:13:22-64
+18    <uses-permission android:name="android.permission.CALL_PHONE" /> <!-- Chapter 3: Content provider -->
+18-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:14:5-68
+18-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:14:22-66
+19    <uses-permission android:name="android.permission.READ_CONTACTS" /> <!-- Chapter 5: Async Task (lập trình đa tuyến trong android) kỹ thuật lập trình đa tuyến với AsyncTask (loading hình ảnh từ Internet) -->
+19-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:15:5-16:62
+19-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:16:13-60
+20    <uses-permission android:name="android.permission.INTERNET" /> <!-- Chapter 6: BroadCast Receiver -> check internet wifi (ACCESS_WIFI_STATE xem có wifi k), ACCESS_NETWORK_STATE (k có wifi thì đt có internet hay k) -->
+20-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:17:5-18:57
+20-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:18:13-55
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:19:5-78
+21-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:19:22-76
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+22-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:20:5-75
+22-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:20:22-73
+23
+24    <uses-feature
+24-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:22:5-24:38
+25        android:name="android.hardware.telephony"
+25-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:23:13-54
+26        android:required="true" /> <!-- Chương 6: Đọc Tin nhắn bằng Broadcast Receiver (thêm 2 quyền là READ_SMS và SEND_SMS) -->
+26-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:24:13-36
+27    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+27-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:25:5-69
+27-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:25:22-67
+28
+29    <uses-feature
+29-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\ddd6aa803d65d0ba413df7abd76cca0a\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+30        android:glEsVersion="0x00020000"
+30-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\ddd6aa803d65d0ba413df7abd76cca0a\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+31        android:required="true" />
+31-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\ddd6aa803d65d0ba413df7abd76cca0a\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+32
+33    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+33-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\1f3b29db4478e2f68d44f2aa36a472c4\firebase-iid-21.0.1\AndroidManifest.xml:24:5-68
+33-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\1f3b29db4478e2f68d44f2aa36a472c4\firebase-iid-21.0.1\AndroidManifest.xml:24:22-65
+34    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+34-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\1f3b29db4478e2f68d44f2aa36a472c4\firebase-iid-21.0.1\AndroidManifest.xml:26:5-82
+34-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\1f3b29db4478e2f68d44f2aa36a472c4\firebase-iid-21.0.1\AndroidManifest.xml:26:22-79
+35    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+35-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\d95828bd14a4a969754efff34e1070d2\play-services-measurement-18.0.2\AndroidManifest.xml:26:5-110
+35-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\d95828bd14a4a969754efff34e1070d2\play-services-measurement-18.0.2\AndroidManifest.xml:26:22-107
+36
+37    <application
+37-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:27:5-163:19
+38        android:allowBackup="false"
+38-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:28:13-40
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.3.1] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\53cefc3356e27a6d83a16f27b9b9efd4\core-1.3.1\AndroidManifest.xml:24:18-86
+40        android:extractNativeLibs="false"
+41        android:supportsRtl="true"
+41-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:29:13-39
+42        android:theme="@style/AppTheme" >
+42-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:30:13-44
+43        <activity android:name="elong.androidApp.MainActivityDataBindingDemo" >
+43-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:31:9-32:20
+43-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:31:19-62
+44        </activity>
+45        <activity android:name="elong.androidApp.MainActivityWebserviceAndBonus" >
+45-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:33:9-34:20
+45-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:33:19-65
+46        </activity>
+47        <!--
+48             The API key for Google Maps-based APIs is defined as a string resource.
+49             (See the file "res/values/google_maps_api.xml").
+50             Note that the API key is linked to the encryption key used to sign the APK.
+51             You need a different API key for each encryption key, including the release key that is used to
+52             sign the APK for publishing.
+53             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+54        -->
+55        <meta-data
+55-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:43:9-45:58
+56            android:name="com.google.android.geo.API_KEY"
+56-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:44:17-62
+57            android:value="@string/google_maps_key" />
+57-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:45:17-56
+58
+59        <activity
+59-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:47:9-50:20
+60            android:name="elong.androidApp.MapsActivityChapter8"
+60-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:48:17-53
+61            android:label="@string/title_activity_maps_chapter8" >
+61-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:49:17-69
+62        </activity>
+63        <activity android:name="elong.androidApp.MainActivityChapter4567" >
+63-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:51:9-52:20
+63-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:51:19-58
+64        </activity>
+65        <activity android:name="elong.androidApp.chapter6BroadcastNotification.Chapter6NotificationUpdateVersion" >
+65-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:53:9-54:20
+65-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:53:19-98
+66        </activity> <!-- going to chapter2 and 3 -->
+67        <activity android:name="elong.androidApp.MainActivityChapter2Chapter3" >
+67-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:55:9-56:20
+67-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:55:19-63
+68        </activity> <!-- Chapter 3: Content provider -->
+69        <activity android:name="elong.androidApp.chapter3ContentProvider.Chapter3ContentProviderReadSMS" >
+69-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:57:9-58:20
+69-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:57:19-89
+70        </activity>
+71        <activity android:name="elong.androidApp.chapter3ContentProvider.Chapter3ContentProviderReadContact" >
+71-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:59:9-60:20
+71-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:59:19-93
+72        </activity>
+73        <activity android:name="elong.androidApp.chapter2Activity.Chapter2ActivitySMSproject" >
+73-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:61:9-62:20
+73-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:61:19-78
+74        </activity> <!-- going to chapter1 -->
+75        <activity android:name="elong.androidApp.MainActivityChapter1EventOnView" >
+75-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:63:9-64:20
+75-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:63:19-66
+76        </activity> <!-- Chapter 2: học intent che khuất màn hình 1 phần ==> add android:theme="@style/Base.Theme.AppCompat.Light.Dialog vào -->
+77        <activity
+77-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:65:9-68:20
+78            android:name="elong.androidApp.chapter2Activity.Chapter2Che1PhanActivity"
+78-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:66:17-74
+79            android:theme="@style/Theme.AppCompat.Light.Dialog" >
+79-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:67:17-68
+80        </activity>
+81        <activity android:name="elong.androidApp.chapter2Activity.Chapter2CheToanBoActivity" >
+81-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:69:9-70:20
+81-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:69:19-77
+82        </activity> <!-- Chappter 2: Send Data Zữa các Activity (ko quan tâm kq trả về) -->
+83        <activity android:name="elong.androidApp.chapter2Activity.Chapter2SendDataActivity" >
+83-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:71:9-72:20
+83-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:71:19-76
+84        </activity> <!-- Chappter 2: Send Data Zữa các Activity và quan tâm kq trả về -->
+85        <activity android:name="elong.androidApp.chapter2Activity.Chapter2SendDatanAnswerActivity" >
+85-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:73:9-74:20
+85-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:73:19-83
+86        </activity>
+87        <activity android:name="elong.androidApp.MainActivity" >
+87-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:75:9-81:20
+87-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:75:19-47
+88            <intent-filter>
+88-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:76:13-80:29
+89                <action android:name="android.intent.action.MAIN" />
+89-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:77:17-68
+89-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:77:25-66
+90
+91                <category android:name="android.intent.category.LAUNCHER" />
+91-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:79:17-76
+91-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:79:27-74
+92            </intent-filter>
+93        </activity> <!-- Chương 6: Định nghĩa BroadcastReceiver trong file Manifest -> Lắng nghe Internet nhưng đưa nó trở về dạng service -> k cần chạy phầnmềm lên vẫn hiểu -> các phầnmềm hack -->
+94        <!-- từ API 26 trở đi, google đã bỏ chức năng này, k cho chạy ngầm nữa rồi -->
+95        <receiver android:name="elong.androidApp.services.chapter6BroadcastReceiver.BroadcastInManifest" >
+95-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:83:9-89:20
+95-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:83:19-89
+96            <intent-filter>
+96-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:84:13-88:29
+97                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+97-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:85:17-87:53
+97-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:86:25-76
+98            </intent-filter>
+99        </receiver> <!-- Chương 6: Đọc Tin nhắn bằng Broadcast Receiver (thêm 2 quyền là READ_SMS và SEND_SMS) -->
+100        <receiver android:name="elong.androidApp.services.chapter6BroadcastReceiver.BroadcastReadSMS" >
+100-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:90:9-94:20
+100-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:90:19-86
+101            <intent-filter>
+101-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:91:13-93:29
+102                <action android:name="android.provider.Telephony.SMS_RECEIVED" /> <!-- quyền này google cũng đã bỏ -->
+102-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:92:17-81
+102-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:92:25-79
+103            </intent-filter>
+104        </receiver>
+105        <!--
+106CHƯƠNG 9: FIREBASE CLOUD MESSAGE (PHÍA CLIENT - MOBILE CLIENT APP)
+107            cung cấp thêm 2 services: 1 service để lắng nghe lấy đc cái id token và 1 cái dùng để lắng nghe lấy đc cái message
+108        -->
+109        <!--
+110        * Service này chính là BƯỚC 1 và BƯỚC 2 trong lưu đồ zải thích nguyên lý hoạt động của firebase
+111        * BƯỚC 1: Các devices đã cài đặt app của mình sẽ gửi yêu cầu lên server firebase cảu google để lấy Token ==> Đã tạo 1 server firebase theo như video trên youtube cá nhân
+112        * BƯỚC 2: Firebase trả về token (chính là ID device của mỗi thiết bị mà đã cài đặt app của mình). Service INSTANCE_ID_EVENT ở dưới dùng để lắng nghe token id gửi về
+113
+114        *   _________________________                                                                     _____________________________
+115        *   |                       |   Bước 4: Admin gửi Token + thông điệp (Message) lên firebase       |                           |
+116        *   |   Remote Database     | ===================================================================>|   Firebase Cloud Message  |
+117        *   |_______________________|                                                                     |   (1 database của google) |
+118        *       Bước 3: |                                                                 Bước 1:  |=====>|___________________________|
+119        *       Ta phải |                                                               Các Device |     Bước 2:   |      Bước 5: |
+120        *       lưu lại |                                                               đã cài đặt |     Firebase  |      Firebase|
+121        *       toàn bộ |                                                               apps của   |     trả về    |      sẽ Push |
+122        *       Token   |                                                               mình sẽ    |     Token     |      Message |
+123        *       mà      |                                                               gửi yêu cầu|     (chính là |      (thông  |
+124        *       firebase|                                                               lên server |     ID device |       điệp   |
+125        *       gửi về  |                                                               firebase   |     của mỗi   |       từ     |
+126        *       cho từng|                                                               của google |     thiết bị  |       bước 4)|
+127        *       device  |                                                               để lấy     |     mà đã cài |              |
+128        *               |                                                               Token      |     đặt app   |              |
+129        *               |                   __________________________________________________     |     của mình) |              |
+130        *               |                   |                                                |=====|               |              |
+131        *               |=================> |   Devices mà customer đã cài đặt app của mình  |                     |              |
+132        *                                   |   (smartphone, tablet, etc,...)                |<====================|              |
+133        *                                   |                                                |                                    |
+134        *                                   |________________________________________________|<===================================|
+135        *
+136        -->
+137        <service android:name="elong.androidApp.services.chapter9FirebaseCloudMessage.Chapter9MyFirebaseIDServices" >
+137-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:127:9-131:19
+137-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:127:18-100
+138            <intent-filter>
+138-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:128:13-130:29
+139                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" /> <!-- lắng nghe token id gửi zề (BƯỚC 2) -->
+139-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:129:17-79
+139-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:129:25-77
+140            </intent-filter>
+141        </service> <!-- Bước 3,4: Xử lý trong webservice (xây dựng webservice trong visual studio) để xử lý lưu token và gửi message lên server firebase. -->
+142        <!--
+143        * Service này chính là BƯỚC 5 trong lưu đồ zải thích nguyên lý hoạt động của firebase   (PHÍA CLIENT - MOBILE CLIENT APP)
+144        * (Firebase sẽ push message (thông điệp từ bước 4)). Service MESSAGING_EVENT ở dưới dùng để lắng nghe message gửi về
+145        *   _________________________                                                                     _____________________________
+146        *   |                       |   Bước 4: Admin gửi Token + thông điệp (Message) lên firebase       |                           |
+147        *   |   Remote Database     | ===================================================================>|   Firebase Cloud Message  |
+148        *   |_______________________|                                                                     |   (1 database của google) |
+149        *       Bước 3: |                                                                 Bước 1:  |=====>|___________________________|
+150        *       Ta phải |                                                               Các Device |     Bước 2:   |      Bước 5: |
+151        *       lưu lại |                                                               đã cài đặt |     Firebase  |      Firebase|
+152        *       toàn bộ |                                                               apps của   |     trả về    |      sẽ Push |
+153        *       Token   |                                                               mình sẽ    |     Token     |      Message |
+154        *       mà      |                                                               gửi yêu cầu|     (chính là |      (thông  |
+155        *       firebase|                                                               lên server |     ID device |       điệp   |
+156        *       gửi về  |                                                               firebase   |     của mỗi   |       từ     |
+157        *       cho từng|                                                               của google |     thiết bị  |       bước 4)|
+158        *       device  |                                                               để lấy     |     mà đã cài |              |
+159        *               |                                                               Token      |     đặt app   |              |
+160        *               |                   __________________________________________________     |     của mình) |              |
+161        *               |                   |                                                |=====|               |              |
+162        *               |=================> |   Devices mà customer đã cài đặt app của mình  |                     |              |
+163        *                                   |   (smartphone, tablet, etc,...)                |<====================|              |
+164        *                                   |                                                |                                    |
+165        *                                   |________________________________________________|<===================================|
+166        *
+167        -->
+168        <service android:name="elong.androidApp.services.chapter9FirebaseCloudMessage.Chapter9MyFirebaseMessagingServices" >
+168-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:158:9-162:19
+168-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:158:18-107
+169            <intent-filter>
+169-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:159:13-161:29
+170                <action android:name="com.google.firebase.MESSAGING_EVENT" /> <!-- lắng nghe message gửi zề (BƯỚC 5) -->
+170-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:160:17-77
+170-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:160:25-75
+171            </intent-filter>
+172        </service>
+173        <service
+173-->[com.google.firebase:firebase-analytics-ktx:18.0.2] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\2ffd2839066fe76c74627c377e751349\firebase-analytics-ktx-18.0.2\AndroidManifest.xml:8:9-14:19
+174            android:name="com.google.firebase.components.ComponentDiscoveryService"
+174-->[com.google.firebase:firebase-analytics-ktx:18.0.2] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\2ffd2839066fe76c74627c377e751349\firebase-analytics-ktx-18.0.2\AndroidManifest.xml:9:13-84
+175            android:directBootAware="true"
+175-->[com.google.firebase:firebase-common:19.5.0] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\6d7db6860918ba55746a21d07b75495c\firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+176            android:exported="false" >
+176-->[com.google.firebase:firebase-analytics-ktx:18.0.2] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\2ffd2839066fe76c74627c377e751349\firebase-analytics-ktx-18.0.2\AndroidManifest.xml:10:13-37
+177            <meta-data
+177-->[com.google.firebase:firebase-analytics-ktx:18.0.2] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\2ffd2839066fe76c74627c377e751349\firebase-analytics-ktx-18.0.2\AndroidManifest.xml:11:13-13:85
+178                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+178-->[com.google.firebase:firebase-analytics-ktx:18.0.2] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\2ffd2839066fe76c74627c377e751349\firebase-analytics-ktx-18.0.2\AndroidManifest.xml:12:17-126
+179                android:value="com.google.firebase.components.ComponentRegistrar" />
+179-->[com.google.firebase:firebase-analytics-ktx:18.0.2] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\2ffd2839066fe76c74627c377e751349\firebase-analytics-ktx-18.0.2\AndroidManifest.xml:13:17-82
+180            <meta-data
+180-->[com.google.firebase:firebase-common-ktx:19.5.0] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\75dea867f9696316daee6a8641325aad\firebase-common-ktx-19.5.0\AndroidManifest.xml:15:13-17:85
+181                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+181-->[com.google.firebase:firebase-common-ktx:19.5.0] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\75dea867f9696316daee6a8641325aad\firebase-common-ktx-19.5.0\AndroidManifest.xml:16:17-113
+182                android:value="com.google.firebase.components.ComponentRegistrar" />
+182-->[com.google.firebase:firebase-common-ktx:19.5.0] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\75dea867f9696316daee6a8641325aad\firebase-common-ktx-19.5.0\AndroidManifest.xml:17:17-82
+183            <meta-data
+183-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\39a949b4c0eb1fa68ecd0b55d5075603\firebase-messaging-21.0.1\AndroidManifest.xml:39:13-41:85
+184                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+184-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\39a949b4c0eb1fa68ecd0b55d5075603\firebase-messaging-21.0.1\AndroidManifest.xml:40:17-119
+185                android:value="com.google.firebase.components.ComponentRegistrar" />
+185-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\39a949b4c0eb1fa68ecd0b55d5075603\firebase-messaging-21.0.1\AndroidManifest.xml:41:17-82
+186            <meta-data
+186-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\58e4605e019b6724cb8f6b2c4a6aef2a\firebase-datatransport-17.0.10\AndroidManifest.xml:28:13-30:85
+187                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+187-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\58e4605e019b6724cb8f6b2c4a6aef2a\firebase-datatransport-17.0.10\AndroidManifest.xml:29:17-115
+188                android:value="com.google.firebase.components.ComponentRegistrar" />
+188-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\58e4605e019b6724cb8f6b2c4a6aef2a\firebase-datatransport-17.0.10\AndroidManifest.xml:30:17-82
+189            <meta-data
+189-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\1f3b29db4478e2f68d44f2aa36a472c4\firebase-iid-21.0.1\AndroidManifest.xml:32:13-34:85
+190                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+190-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\1f3b29db4478e2f68d44f2aa36a472c4\firebase-iid-21.0.1\AndroidManifest.xml:33:17-96
+191                android:value="com.google.firebase.components.ComponentRegistrar" />
+191-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\1f3b29db4478e2f68d44f2aa36a472c4\firebase-iid-21.0.1\AndroidManifest.xml:34:17-82
+192            <meta-data
+192-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\d5a128d5e5d4a49e0c1808e90474d344\play-services-measurement-api-18.0.2\AndroidManifest.xml:30:13-32:85
+193                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+193-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\d5a128d5e5d4a49e0c1808e90474d344\play-services-measurement-api-18.0.2\AndroidManifest.xml:31:17-139
+194                android:value="com.google.firebase.components.ComponentRegistrar" />
+194-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\d5a128d5e5d4a49e0c1808e90474d344\play-services-measurement-api-18.0.2\AndroidManifest.xml:32:17-82
+195            <meta-data
+195-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\e2873b884175b3ed75334d18ec83d4d4\firebase-installations-16.3.5\AndroidManifest.xml:18:13-20:85
+196                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+196-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\e2873b884175b3ed75334d18ec83d4d4\firebase-installations-16.3.5\AndroidManifest.xml:19:17-127
+197                android:value="com.google.firebase.components.ComponentRegistrar" />
+197-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\e2873b884175b3ed75334d18ec83d4d4\firebase-installations-16.3.5\AndroidManifest.xml:20:17-82
+198            <!--
+199                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+200                clients to use it as well, by defining this registrar in their own core/common library.
+201            -->
+202            <meta-data
+202-->[com.google.firebase:firebase-common:19.5.0] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\6d7db6860918ba55746a21d07b75495c\firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+203                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+203-->[com.google.firebase:firebase-common:19.5.0] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\6d7db6860918ba55746a21d07b75495c\firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+204                android:value="com.google.firebase.components.ComponentRegistrar" />
+204-->[com.google.firebase:firebase-common:19.5.0] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\6d7db6860918ba55746a21d07b75495c\firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+205        </service> <!-- Needs to be explicitly declared on P+ -->
+206        <uses-library
+206-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\ddd6aa803d65d0ba413df7abd76cca0a\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+207            android:name="org.apache.http.legacy"
+207-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\ddd6aa803d65d0ba413df7abd76cca0a\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+208            android:required="false" />
+208-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\ddd6aa803d65d0ba413df7abd76cca0a\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+209        <!--
+210             FirebaseMessagingService performs security checks at runtime,
+211             but set to not exported to explicitly avoid allowing another app to call it.
+212        -->
+213        <service
+213-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\39a949b4c0eb1fa68ecd0b55d5075603\firebase-messaging-21.0.1\AndroidManifest.xml:28:9-35:19
+214            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+214-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\39a949b4c0eb1fa68ecd0b55d5075603\firebase-messaging-21.0.1\AndroidManifest.xml:29:13-82
+215            android:directBootAware="true"
+215-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\39a949b4c0eb1fa68ecd0b55d5075603\firebase-messaging-21.0.1\AndroidManifest.xml:30:13-43
+216            android:exported="false" >
+216-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\39a949b4c0eb1fa68ecd0b55d5075603\firebase-messaging-21.0.1\AndroidManifest.xml:31:13-37
+217            <intent-filter android:priority="-500" >
+217-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:159:13-161:29
+218                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+218-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:160:17-77
+218-->D:\CodDevProgTeaching\AndroidDevelop\androidKotlin\androidApp\src\main\AndroidManifest.xml:160:25-75
+219            </intent-filter>
+220        </service>
+221        <service
+221-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\e435de3f47fa68789ac9f9aa598917d4\transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+222            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+222-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\e435de3f47fa68789ac9f9aa598917d4\transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+223            android:exported="false" >
+223-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\e435de3f47fa68789ac9f9aa598917d4\transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+224            <meta-data
+224-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\e435de3f47fa68789ac9f9aa598917d4\transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+225                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+225-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\e435de3f47fa68789ac9f9aa598917d4\transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+226                android:value="cct" />
+226-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\e435de3f47fa68789ac9f9aa598917d4\transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+227        </service>
+228
+229        <receiver
+229-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\1f3b29db4478e2f68d44f2aa36a472c4\firebase-iid-21.0.1\AndroidManifest.xml:37:9-44:20
+230            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+230-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\1f3b29db4478e2f68d44f2aa36a472c4\firebase-iid-21.0.1\AndroidManifest.xml:38:13-78
+231            android:exported="true"
+231-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\1f3b29db4478e2f68d44f2aa36a472c4\firebase-iid-21.0.1\AndroidManifest.xml:39:13-36
+232            android:permission="com.google.android.c2dm.permission.SEND" >
+232-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\1f3b29db4478e2f68d44f2aa36a472c4\firebase-iid-21.0.1\AndroidManifest.xml:40:13-73
+233            <intent-filter>
+233-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\1f3b29db4478e2f68d44f2aa36a472c4\firebase-iid-21.0.1\AndroidManifest.xml:41:13-43:29
+234                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+234-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\1f3b29db4478e2f68d44f2aa36a472c4\firebase-iid-21.0.1\AndroidManifest.xml:42:17-81
+234-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\1f3b29db4478e2f68d44f2aa36a472c4\firebase-iid-21.0.1\AndroidManifest.xml:42:25-78
+235            </intent-filter>
+236        </receiver>
+237
+238        <provider
+238-->[com.google.firebase:firebase-common:19.5.0] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\6d7db6860918ba55746a21d07b75495c\firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+239            android:name="com.google.firebase.provider.FirebaseInitProvider"
+239-->[com.google.firebase:firebase-common:19.5.0] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\6d7db6860918ba55746a21d07b75495c\firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+240            android:authorities="elong.androidApp.firebaseinitprovider"
+240-->[com.google.firebase:firebase-common:19.5.0] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\6d7db6860918ba55746a21d07b75495c\firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+241            android:directBootAware="true"
+241-->[com.google.firebase:firebase-common:19.5.0] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\6d7db6860918ba55746a21d07b75495c\firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+242            android:exported="false"
+242-->[com.google.firebase:firebase-common:19.5.0] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\6d7db6860918ba55746a21d07b75495c\firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+243            android:initOrder="100" />
+243-->[com.google.firebase:firebase-common:19.5.0] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\6d7db6860918ba55746a21d07b75495c\firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+244
+245        <activity
+245-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\71721e3558ef4cf88179daf78349bdae\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+246            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+246-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\71721e3558ef4cf88179daf78349bdae\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+247            android:exported="false"
+247-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\71721e3558ef4cf88179daf78349bdae\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+248            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+248-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\71721e3558ef4cf88179daf78349bdae\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+249
+250        <receiver
+250-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\d95828bd14a4a969754efff34e1070d2\play-services-measurement-18.0.2\AndroidManifest.xml:29:9-33:20
+251            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+251-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\d95828bd14a4a969754efff34e1070d2\play-services-measurement-18.0.2\AndroidManifest.xml:30:13-85
+252            android:enabled="true"
+252-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\d95828bd14a4a969754efff34e1070d2\play-services-measurement-18.0.2\AndroidManifest.xml:31:13-35
+253            android:exported="false" >
+253-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\d95828bd14a4a969754efff34e1070d2\play-services-measurement-18.0.2\AndroidManifest.xml:32:13-37
+254        </receiver>
+255
+256        <service
+256-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\d95828bd14a4a969754efff34e1070d2\play-services-measurement-18.0.2\AndroidManifest.xml:35:9-38:40
+257            android:name="com.google.android.gms.measurement.AppMeasurementService"
+257-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\d95828bd14a4a969754efff34e1070d2\play-services-measurement-18.0.2\AndroidManifest.xml:36:13-84
+258            android:enabled="true"
+258-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\d95828bd14a4a969754efff34e1070d2\play-services-measurement-18.0.2\AndroidManifest.xml:37:13-35
+259            android:exported="false" />
+259-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\d95828bd14a4a969754efff34e1070d2\play-services-measurement-18.0.2\AndroidManifest.xml:38:13-37
+260        <service
+260-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\d95828bd14a4a969754efff34e1070d2\play-services-measurement-18.0.2\AndroidManifest.xml:39:9-43:72
+261            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+261-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\d95828bd14a4a969754efff34e1070d2\play-services-measurement-18.0.2\AndroidManifest.xml:40:13-87
+262            android:enabled="true"
+262-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\d95828bd14a4a969754efff34e1070d2\play-services-measurement-18.0.2\AndroidManifest.xml:41:13-35
+263            android:exported="false"
+263-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\d95828bd14a4a969754efff34e1070d2\play-services-measurement-18.0.2\AndroidManifest.xml:42:13-37
+264            android:permission="android.permission.BIND_JOB_SERVICE" />
+264-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\d95828bd14a4a969754efff34e1070d2\play-services-measurement-18.0.2\AndroidManifest.xml:43:13-69
+265
+266        <meta-data
+266-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\a5bd51c0f2c4b5552936c02d10b5d684\play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+267            android:name="com.google.android.gms.version"
+267-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\a5bd51c0f2c4b5552936c02d10b5d684\play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+268            android:value="@integer/google_play_services_version" />
+268-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\a5bd51c0f2c4b5552936c02d10b5d684\play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+269
+270        <service
+270-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\88f65c89e15fd679c150133d356a01ed\transport-runtime-2.2.5\AndroidManifest.xml:26:9-30:19
+271            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+271-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\88f65c89e15fd679c150133d356a01ed\transport-runtime-2.2.5\AndroidManifest.xml:27:13-117
+272            android:exported="false"
+272-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\88f65c89e15fd679c150133d356a01ed\transport-runtime-2.2.5\AndroidManifest.xml:28:13-37
+273            android:permission="android.permission.BIND_JOB_SERVICE" >
+273-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\88f65c89e15fd679c150133d356a01ed\transport-runtime-2.2.5\AndroidManifest.xml:29:13-69
+274        </service>
+275
+276        <receiver
+276-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\88f65c89e15fd679c150133d356a01ed\transport-runtime-2.2.5\AndroidManifest.xml:32:9-34:40
+277            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+277-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\88f65c89e15fd679c150133d356a01ed\transport-runtime-2.2.5\AndroidManifest.xml:33:13-132
+278            android:exported="false" />
+278-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\PAUL LONG\.gradle\caches\transforms-2\files-2.1\88f65c89e15fd679c150133d356a01ed\transport-runtime-2.2.5\AndroidManifest.xml:34:13-37
+279    </application>
+280
+281</manifest>

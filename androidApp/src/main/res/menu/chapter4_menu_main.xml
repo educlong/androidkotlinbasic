@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Tô màu lam" android:id="@+id/mnuBlue"/>
+    <item android:title="Tô màu đỏ" android:id="@+id/mnuRed"/>
+    <item android:title="Tô màu lục" android:id="@+id/mnuGreen"/>
+    <item android:title="Tô màu vàng" android:id="@+id/mnuYellow"/>
+</menu>

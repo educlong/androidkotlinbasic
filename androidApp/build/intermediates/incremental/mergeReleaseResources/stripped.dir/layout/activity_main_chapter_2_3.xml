@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                             
+                                                                    
+    
+                                          
+
+                                                                                                      
+           
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" android:tag="layout/activity_main_chapter_2_3_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:bind="http://schemas.android.com/apk/res-auto">
+
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/scrollView3" >
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="PROJECT CHƯƠNG 2: NGHE GỌI SMS"
+                        android:id="@+id/textView21"
+                        android:background="#fff3ba" android:textSize="11dp"/>
+
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    <ListView
+                            android:layout_width="221dp"
+                            android:layout_height="80dp"
+                            android:id="@+id/lvDanhBa"
+                            android:tag="binding_1"                            
+                            android:background="#b1ffa1"/>
+                    <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                        <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                            <EditText
+                                    android:layout_width="39dp"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="number"
+                                    android:ems="10"
+                                    android:id="@+id/txtCodeContact"
+                                    android:tag="binding_2"                          
+                                    android:hint="Code" android:textSize="10dp"/>
+                            <EditText
+                                    android:layout_width="140dp"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="textMultiLine"
+                                    android:ems="10"
+                                    android:tag="binding_3"                          
+                                    android:id="@+id/txtNameContact"
+                                    android:hint="Save Name" android:textSize="10dp"/>
+                        </LinearLayout>
+                        <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                            <EditText
+                                    android:layout_width="88dp"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="phone"
+                                    android:ems="10"
+                                    android:tag="binding_4"                           
+                                    android:id="@+id/txtPhoneContact"
+                                    android:hint="Save Phone" android:textSize="10dp"/>
+                            <Button
+                                    style="?android:attr/buttonStyleSmall"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:tag="binding_5"                    
+                                    android:text="Save Contact"
+                                    android:id="@+id/btnSaveContact" android:textSize="10dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="ActivityLifetime"
+                            android:id="@+id/textView8" />
+
+                    <Button
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Che Hết"
+                            android:id="@+id/btnCheToanBo" />               <!--android:onClick: 06 loại sự kiện đã học-->
+
+                    <Button
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Che 1fần"
+                            android:id="@+id/btnCheMotPhan" />
+
+                    <Button
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gửi Data"
+                            android:id="@+id/btnSendData" />
+
+                    <!--android:onClick: 06 loại sự kiện đã học-->
+
+                    <!--android:onClick: 06 loại sự kiện đã học-->
+                </LinearLayout>
+
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="NhậpA"
+                            android:id="@+id/textView10" />
+
+                    <EditText
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:ems="10"
+                            android:id="@+id/txtAsendData" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="NhậpB"
+                            android:id="@+id/textView11" />
+
+                    <EditText
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:ems="10"
+                            android:id="@+id/txtBsendData" />
+
+                    <TextView
+                            android:layout_width="89dp"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:id="@+id/txtKetQuaSendData"/>
+
+                    <Button
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Send Data&amp;Answer"
+                            android:id="@+id/btnSendDataAndAnswer" />
+
+                    <!--android:onClick: 06 loại sự kiện đã học-->
+                </LinearLayout>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Chương 2: Sử dụng Intent gọi đến các ứng dụng HĐH"
+                        android:id="@+id/textView20"
+                        android:background="#86c3ff" android:textSize="11dp"/>
+
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <EditText
+                            android:layout_width="72dp"
+                            android:layout_height="wrap_content"
+                            android:inputType="phone"
+                            android:ems="10"
+                            android:id="@+id/txtPhoneActivity"
+                            android:hint="Phone" android:textSize="10dp"/>
+
+                    <EditText
+                            android:layout_width="141dp"
+                            android:layout_height="wrap_content"
+                            android:inputType="textMultiLine"
+                            android:ems="10"
+                            android:id="@+id/txtMessengerActivity"
+                            android:hint="MultilineText" android:textSize="10dp"/>
+                    <Button
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Quay số"
+                            android:id="@+id/btnDialActivity" android:textSize="10dp"/>
+                    <Button
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Call"
+                            android:id="@+id/btnCallActivity" android:textSize="10dp"/>
+
+                    <Button
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Messenger"
+                            android:id="@+id/btnMessengerActivity" android:textSize="10dp"/>
+                </LinearLayout>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Chương 3: Quản lý data và ContentProvider. 3.1 Assets and SharedPreferences"
+                        android:id="@+id/textView200"
+                        android:background="#86c3ff" android:textSize="11dp"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:id="@+id/txtFont"
+                        android:text="NGUYỄN ĐỨC LONG - 0905687974 - Âu Cơ - Đà Nẵng City" />
+
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <ListView
+                            android:layout_width="150dp"
+                            android:layout_height="60dp"
+                            android:id="@+id/lvFont"
+                            android:background="#fff94c" />
+
+                    <ListView
+                            android:layout_width="wrap_content"
+                            android:layout_height="60dp"
+                            android:id="@+id/lvMusic"
+                            android:background="#ff8888" />
+                </LinearLayout>
+
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <EditText
+                            android:layout_width="88dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/txtUsername"
+                            android:hint="username" />
+
+                    <EditText
+                            android:layout_width="92dp"
+                            android:layout_height="40dp"
+                            android:inputType="textPassword"
+                            android:ems="10"
+                            android:id="@+id/txtPassword"
+                            android:hint="password" />
+
+                    <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:text="Save"
+                            android:id="@+id/chkSaveInforLogin"
+                            android:checked="true" />
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="Chương 3: 3.2. Tương tác Android với SQLite"
+                            android:id="@+id/textView22"
+                            android:background="#ffddf8"/>
+                </LinearLayout>
+
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <EditText
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:inputType="number"
+                            android:ems="10"
+                            android:id="@+id/txtCodeDanhBaDatabase"
+                            android:hint="Mã" />
+
+                    <EditText
+                            android:layout_width="69dp"
+                            android:layout_height="40dp"
+                            android:inputType="textPersonName"
+                            android:ems="10"
+                            android:id="@+id/txtNameDanhBaDatabase"
+                            android:hint="Nhập tên" />
+
+                    <EditText
+                            android:layout_width="69dp"
+                            android:layout_height="40dp"
+                            android:inputType="phone"
+                            android:ems="10"
+                            android:id="@+id/txtPhoneDanhBaDatabase"
+                            android:hint="Nhập Phone" />
+                    <Button
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:text="Add/Update"
+                            android:id="@+id/btnAddOrUpdateDanhBa" />
+
+                    <Button
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:text="Del"
+                            android:id="@+id/btnDeleteDanhBa" />
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:id="@+id/textView220"
+                            android:background="#ffddf8"/>
+                </LinearLayout>
+
+                <ListView
+                        android:layout_width="wrap_content"
+                        android:layout_height="70dp"
+                        android:id="@+id/lvDanhBaDatabase"
+                        android:background="#6dff6a" />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Chương 3: Sử dụng ContentProvider đọc danh bạ đt"
+                        android:id="@+id/textView23"
+                        android:background="#ffddf8" />
+
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <Button
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:text="ReadContact"
+                            android:id="@+id/btnReadDanhBaOfMine" />
+
+                    <Button
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:text="ReadMessage"
+                            android:id="@+id/btnReadMessageOfMine" />
+                    <SearchView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:id="@+id/svSearchSong"
+                            android:queryHint="search song"
+                            android:layout_gravity="top|bottom" />
+                </LinearLayout>
+
+                <TabHost
+                        android:layout_width="match_parent"
+                        android:layout_height="194dp"
+                        android:id="@+id/tabHostKaraokeDatabase">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                        <TabWidget
+                                android:id="@android:id/tabs"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"></TabWidget>
+
+                        <FrameLayout
+                                android:id="@android:id/tabcontent"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                            <LinearLayout
+                                    android:id="@+id/tabViewKaraokeListSongDatabase"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+                                <ListView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:id="@+id/lvSongListDatabse"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                    android:id="@+id/tabViewKaraokeLikeSongDatabase"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+                                <ListView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:id="@+id/lvSongLikeDatabse"/>
+                            </LinearLayout>
+
+                        </FrameLayout>
+                    </LinearLayout>
+                </TabHost>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+         

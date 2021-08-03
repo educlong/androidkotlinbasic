@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Bước 7: chỉnh sửa lại file xml như sau để biến fragment map thành 1 phần của app-->
+<!--Bước 8: sau khi code zao diện xong, quay trở lại MapsActivityChapter8.java xử lý-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:map="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".MapsActivityChapter8">
+
+    <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spGoogleMapType" />
+    <fragment android:layout_width="match_parent"
+              android:layout_height="194dp"
+              android:id="@+id/map"
+              android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:id="@+id/scrollView">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="1500dp"
+                android:layout_gravity="center_horizontal">
+            <ListView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:id="@+id/lvVoChongTuiGMap"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="PROJECT: GOOGLE MAP"
+                    android:id="@+id/textView18"
+                    android:background="#00ff1e" />
+
+            <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="1500dp"
+                    android:id="@+id/lvSoTayAddressVkCkGGMap"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

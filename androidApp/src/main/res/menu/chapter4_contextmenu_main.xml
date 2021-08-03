@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--để tạo thành phần cần 2 thuộc tính này, trong đó thuộc tính đặt id là bắt buộc fải có-->
+    <item android:title="In đậm" android:id="@+id/mnuBold"/>
+    <item android:title="In nghiêng" android:id="@+id/mnuItalic"/>
+    <item android:title="Gạch chân" android:id="@+id/mnuUnderline"/>
+    <item android:title="Tô chữ đỏ" android:id="@+id/mnuRedWord"/>
+    <item android:title="Xóa Control" android:id="@+id/mnuDeleteControl"/>
+</menu>

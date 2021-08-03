@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "346030723430",
+    "project_id": "fir-cloudmessagedemo-f6a41",
+    "storage_bucket": "fir-cloudmessagedemo-f6a41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346030723430:android:07bacf1f489b8955edf8a7",
+        "android_client_info": {
+          "package_name": "elong.androidApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "346030723430-kvsk7hs4cvs2crunv2m8hfa0i81n3d6d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeIo9PEosBFBl8H_ijAD9z-QzWH5HSVA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "346030723430-kvsk7hs4cvs2crunv2m8hfa0i81n3d6d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

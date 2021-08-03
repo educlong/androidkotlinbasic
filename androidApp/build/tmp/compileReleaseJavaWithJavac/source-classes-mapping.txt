@@ -1,0 +1,92 @@
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+elong/androidApp/DataBindingInfo.java
+ elong.androidApp.DataBindingInfo
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+elong/modelView/mainActivityChapter1EventOnView/MusicsBinder.java
+ elong.modelView.mainActivityChapter1EventOnView.MusicsBinder
+ elong.modelView.mainActivityChapter1EventOnView.MusicsBinder$1
+elong/androidApp/databinding/ActivityMainChapter1Binding.java
+ elong.androidApp.databinding.ActivityMainChapter1Binding
+elong/androidApp/databinding/ActivityMainChapter23Binding.java
+ elong.androidApp.databinding.ActivityMainChapter23Binding
+elong/androidApp/databinding/ItemDatabindingBindingImpl.java
+ elong.androidApp.databinding.ItemDatabindingBindingImpl
+ elong.androidApp.databinding.ItemDatabindingBindingImpl$1
+ elong.androidApp.databinding.ItemDatabindingBindingImpl$2
+elong/androidApp/databinding/ItemChapter1GridviewBinding.java
+ elong.androidApp.databinding.ItemChapter1GridviewBinding
+elong/androidApp/databinding/ItemDatabindingBinding.java
+ elong.androidApp.databinding.ItemDatabindingBinding
+elong/androidApp/databinding/ActivityMainChapter1BindingImpl.java
+ elong.androidApp.databinding.ActivityMainChapter1BindingImpl
+ elong.androidApp.databinding.ActivityMainChapter1BindingImpl$1
+ elong.androidApp.databinding.ActivityMainChapter1BindingImpl$10
+ elong.androidApp.databinding.ActivityMainChapter1BindingImpl$2
+ elong.androidApp.databinding.ActivityMainChapter1BindingImpl$3
+ elong.androidApp.databinding.ActivityMainChapter1BindingImpl$4
+ elong.androidApp.databinding.ActivityMainChapter1BindingImpl$5
+ elong.androidApp.databinding.ActivityMainChapter1BindingImpl$6
+ elong.androidApp.databinding.ActivityMainChapter1BindingImpl$7
+ elong.androidApp.databinding.ActivityMainChapter1BindingImpl$8
+ elong.androidApp.databinding.ActivityMainChapter1BindingImpl$9
+ elong.androidApp.databinding.ActivityMainChapter1BindingImpl$OnClickListenerImpl
+ elong.androidApp.databinding.ActivityMainChapter1BindingImpl$OnClickListenerImpl1
+elong/androidApp/generated/callback/OnCheckedChangeListener.java
+ elong.androidApp.generated.callback.OnCheckedChangeListener
+ elong.androidApp.generated.callback.OnCheckedChangeListener$Listener
+elong/androidApp/databinding/ItemChapter1237LisviewAdvanceBinding.java
+ elong.androidApp.databinding.ItemChapter1237LisviewAdvanceBinding
+elong/modelView/mainActivityChapter1EventOnView/DanhBasLvBinder.java
+ elong.modelView.mainActivityChapter1EventOnView.DanhBasLvBinder
+ elong.modelView.mainActivityChapter1EventOnView.DanhBasLvBinder$1
+elong/androidApp/DataBinderMapperImpl.java
+ elong.androidApp.DataBinderMapperImpl
+ elong.androidApp.DataBinderMapperImpl$InnerBrLookup
+ elong.androidApp.DataBinderMapperImpl$InnerLayoutIdLookup
+elong/androidApp/databinding/ItemChapter1237LisviewAdvanceBindingImpl.java
+ elong.androidApp.databinding.ItemChapter1237LisviewAdvanceBindingImpl
+ elong.androidApp.databinding.ItemChapter1237LisviewAdvanceBindingImpl$1
+ elong.androidApp.databinding.ItemChapter1237LisviewAdvanceBindingImpl$2
+ elong.androidApp.databinding.ItemChapter1237LisviewAdvanceBindingImpl$3
+ elong.androidApp.databinding.ItemChapter1237LisviewAdvanceBindingImpl$OnClickListenerImpl
+ elong.androidApp.databinding.ItemChapter1237LisviewAdvanceBindingImpl$OnClickListenerImpl1
+ elong.androidApp.databinding.ItemChapter1237LisviewAdvanceBindingImpl$OnClickListenerImpl2
+elong/androidApp/BuildConfig.java
+ elong.androidApp.BuildConfig
+elong/androidApp/databinding/ActivityMainChapter23BindingImpl.java
+ elong.androidApp.databinding.ActivityMainChapter23BindingImpl
+ elong.androidApp.databinding.ActivityMainChapter23BindingImpl$1
+ elong.androidApp.databinding.ActivityMainChapter23BindingImpl$2
+ elong.androidApp.databinding.ActivityMainChapter23BindingImpl$3
+elong/modelView/mainActivityChapter1EventOnView/GvImagesBinder.java
+ elong.modelView.mainActivityChapter1EventOnView.GvImagesBinder
+ elong.modelView.mainActivityChapter1EventOnView.GvImagesBinder$1
+elong/androidApp/databinding/ActivityMainDataBindingDemoBindingImpl.java
+ elong.androidApp.databinding.ActivityMainDataBindingDemoBindingImpl
+ elong.androidApp.databinding.ActivityMainDataBindingDemoBindingImpl$1
+ elong.androidApp.databinding.ActivityMainDataBindingDemoBindingImpl$2
+ elong.androidApp.databinding.ActivityMainDataBindingDemoBindingImpl$OnClickListenerImpl
+ elong.androidApp.databinding.ActivityMainDataBindingDemoBindingImpl$OnClickListenerImpl1
+elong/modelView/mainActivityDataBindingDemo/adapter/ListBinder.java
+ elong.modelView.mainActivityDataBindingDemo.adapter.ListBinder
+ elong.modelView.mainActivityDataBindingDemo.adapter.ListBinder$1
+elong/androidApp/BR.java
+ elong.androidApp.BR
+elong/androidApp/generated/callback/OnClickListener.java
+ elong.androidApp.generated.callback.OnClickListener
+ elong.androidApp.generated.callback.OnClickListener$Listener
+elong/androidApp/databinding/ActivityMainDataBindingDemoBinding.java
+ elong.androidApp.databinding.ActivityMainDataBindingDemoBinding
+elong/androidApp/databinding/ItemChapter13MusicBindingImpl.java
+ elong.androidApp.databinding.ItemChapter13MusicBindingImpl
+ elong.androidApp.databinding.ItemChapter13MusicBindingImpl$1
+ elong.androidApp.databinding.ItemChapter13MusicBindingImpl$2
+ elong.androidApp.databinding.ItemChapter13MusicBindingImpl$3
+elong/androidApp/databinding/ItemChapter13MusicBinding.java
+ elong.androidApp.databinding.ItemChapter13MusicBinding
+elong/androidApp/databinding/ItemChapter1GridviewBindingImpl.java
+ elong.androidApp.databinding.ItemChapter1GridviewBindingImpl
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent

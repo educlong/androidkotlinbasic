@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_main_chapter1.xml",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\layout\\activity_main_chapter1.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_main_chapter_2_3.xml",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\layout\\activity_main_chapter_2_3.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_main_data_binding_demo.xml",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\layout\\activity_main_data_binding_demo.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\item_chapter1237_lisview_advance.xml",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\layout\\item_chapter1237_lisview_advance.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\item_chapter1_3_music.xml",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\layout\\item_chapter1_3_music.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\item_chapter1_gridview.xml",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\layout\\item_chapter1_gridview.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\item_databinding.xml",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\layout\\item_databinding.xml"
+    }
+]

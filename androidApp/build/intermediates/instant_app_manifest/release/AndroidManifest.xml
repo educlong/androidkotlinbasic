@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="elong.androidApp"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="29" />
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Chapter 2,3: Cấp quyền đọc, send và call để thực hiện implicit intent và content provider -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" /> <!-- Chapter 3: Content provider -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" /> <!-- Chapter 5: Async Task (lập trình đa tuyến trong android) kỹ thuật lập trình đa tuyến với AsyncTask (loading hình ảnh từ Internet) -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- Chapter 6: BroadCast Receiver -> check internet wifi (ACCESS_WIFI_STATE xem có wifi k), ACCESS_NETWORK_STATE (k có wifi thì đt có internet hay k) -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="true" /> <!-- Chương 6: Đọc Tin nhắn bằng Broadcast Receiver (thêm 2 quyền là READ_SMS và SEND_SMS) -->
+    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+
+    <application
+        android:allowBackup="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:extractNativeLibs="false"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="elong.androidApp.MainActivityDataBindingDemo" >
+        </activity>
+        <activity android:name="elong.androidApp.MainActivityWebserviceAndBonus" >
+        </activity>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="elong.androidApp.MapsActivityChapter8"
+            android:label="@string/title_activity_maps_chapter8" >
+        </activity>
+        <activity android:name="elong.androidApp.MainActivityChapter4567" >
+        </activity>
+        <activity android:name="elong.androidApp.chapter6BroadcastNotification.Chapter6NotificationUpdateVersion" >
+        </activity> <!-- going to chapter2 and 3 -->
+        <activity android:name="elong.androidApp.MainActivityChapter2Chapter3" >
+        </activity> <!-- Chapter 3: Content provider -->
+        <activity android:name="elong.androidApp.chapter3ContentProvider.Chapter3ContentProviderReadSMS" >
+        </activity>
+        <activity android:name="elong.androidApp.chapter3ContentProvider.Chapter3ContentProviderReadContact" >
+        </activity>
+        <activity android:name="elong.androidApp.chapter2Activity.Chapter2ActivitySMSproject" >
+        </activity> <!-- going to chapter1 -->
+        <activity android:name="elong.androidApp.MainActivityChapter1EventOnView" >
+        </activity> <!-- Chapter 2: học intent che khuất màn hình 1 phần ==> add android:theme="@style/Base.Theme.AppCompat.Light.Dialog vào -->
+        <activity
+            android:name="elong.androidApp.chapter2Activity.Chapter2Che1PhanActivity"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" >
+        </activity>
+        <activity android:name="elong.androidApp.chapter2Activity.Chapter2CheToanBoActivity" >
+        </activity> <!-- Chappter 2: Send Data Zữa các Activity (ko quan tâm kq trả về) -->
+        <activity android:name="elong.androidApp.chapter2Activity.Chapter2SendDataActivity" >
+        </activity> <!-- Chappter 2: Send Data Zữa các Activity và quan tâm kq trả về -->
+        <activity android:name="elong.androidApp.chapter2Activity.Chapter2SendDatanAnswerActivity" >
+        </activity>
+        <activity android:name="elong.androidApp.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Chương 6: Định nghĩa BroadcastReceiver trong file Manifest -> Lắng nghe Internet nhưng đưa nó trở về dạng service -> k cần chạy phầnmềm lên vẫn hiểu -> các phầnmềm hack -->
+        <!-- từ API 26 trở đi, google đã bỏ chức năng này, k cho chạy ngầm nữa rồi -->
+        <receiver android:name="elong.androidApp.services.chapter6BroadcastReceiver.BroadcastInManifest" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver> <!-- Chương 6: Đọc Tin nhắn bằng Broadcast Receiver (thêm 2 quyền là READ_SMS và SEND_SMS) -->
+        <receiver android:name="elong.androidApp.services.chapter6BroadcastReceiver.BroadcastReadSMS" >
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" /> <!-- quyền này google cũng đã bỏ -->
+            </intent-filter>
+        </receiver>
+        <!--
+CHƯƠNG 9: FIREBASE CLOUD MESSAGE (PHÍA CLIENT - MOBILE CLIENT APP)
+            cung cấp thêm 2 services: 1 service để lắng nghe lấy đc cái id token và 1 cái dùng để lắng nghe lấy đc cái message
+        -->
+        <!--
+        * Service này chính là BƯỚC 1 và BƯỚC 2 trong lưu đồ zải thích nguyên lý hoạt động của firebase
+        * BƯỚC 1: Các devices đã cài đặt app của mình sẽ gửi yêu cầu lên server firebase cảu google để lấy Token ==> Đã tạo 1 server firebase theo như video trên youtube cá nhân
+        * BƯỚC 2: Firebase trả về token (chính là ID device của mỗi thiết bị mà đã cài đặt app của mình). Service INSTANCE_ID_EVENT ở dưới dùng để lắng nghe token id gửi về
+
+        *   _________________________                                                                     _____________________________
+        *   |                       |   Bước 4: Admin gửi Token + thông điệp (Message) lên firebase       |                           |
+        *   |   Remote Database     | ===================================================================>|   Firebase Cloud Message  |
+        *   |_______________________|                                                                     |   (1 database của google) |
+        *       Bước 3: |                                                                 Bước 1:  |=====>|___________________________|
+        *       Ta phải |                                                               Các Device |     Bước 2:   |      Bước 5: |
+        *       lưu lại |                                                               đã cài đặt |     Firebase  |      Firebase|
+        *       toàn bộ |                                                               apps của   |     trả về    |      sẽ Push |
+        *       Token   |                                                               mình sẽ    |     Token     |      Message |
+        *       mà      |                                                               gửi yêu cầu|     (chính là |      (thông  |
+        *       firebase|                                                               lên server |     ID device |       điệp   |
+        *       gửi về  |                                                               firebase   |     của mỗi   |       từ     |
+        *       cho từng|                                                               của google |     thiết bị  |       bước 4)|
+        *       device  |                                                               để lấy     |     mà đã cài |              |
+        *               |                                                               Token      |     đặt app   |              |
+        *               |                   __________________________________________________     |     của mình) |              |
+        *               |                   |                                                |=====|               |              |
+        *               |=================> |   Devices mà customer đã cài đặt app của mình  |                     |              |
+        *                                   |   (smartphone, tablet, etc,...)                |<====================|              |
+        *                                   |                                                |                                    |
+        *                                   |________________________________________________|<===================================|
+        *
+        -->
+        <service android:name="elong.androidApp.services.chapter9FirebaseCloudMessage.Chapter9MyFirebaseIDServices" >
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" /> <!-- lắng nghe token id gửi zề (BƯỚC 2) -->
+            </intent-filter>
+        </service> <!-- Bước 3,4: Xử lý trong webservice (xây dựng webservice trong visual studio) để xử lý lưu token và gửi message lên server firebase. -->
+        <!--
+        * Service này chính là BƯỚC 5 trong lưu đồ zải thích nguyên lý hoạt động của firebase   (PHÍA CLIENT - MOBILE CLIENT APP)
+        * (Firebase sẽ push message (thông điệp từ bước 4)). Service MESSAGING_EVENT ở dưới dùng để lắng nghe message gửi về
+        *   _________________________                                                                     _____________________________
+        *   |                       |   Bước 4: Admin gửi Token + thông điệp (Message) lên firebase       |                           |
+        *   |   Remote Database     | ===================================================================>|   Firebase Cloud Message  |
+        *   |_______________________|                                                                     |   (1 database của google) |
+        *       Bước 3: |                                                                 Bước 1:  |=====>|___________________________|
+        *       Ta phải |                                                               Các Device |     Bước 2:   |      Bước 5: |
+        *       lưu lại |                                                               đã cài đặt |     Firebase  |      Firebase|
+        *       toàn bộ |                                                               apps của   |     trả về    |      sẽ Push |
+        *       Token   |                                                               mình sẽ    |     Token     |      Message |
+        *       mà      |                                                               gửi yêu cầu|     (chính là |      (thông  |
+        *       firebase|                                                               lên server |     ID device |       điệp   |
+        *       gửi về  |                                                               firebase   |     của mỗi   |       từ     |
+        *       cho từng|                                                               của google |     thiết bị  |       bước 4)|
+        *       device  |                                                               để lấy     |     mà đã cài |              |
+        *               |                                                               Token      |     đặt app   |              |
+        *               |                   __________________________________________________     |     của mình) |              |
+        *               |                   |                                                |=====|               |              |
+        *               |=================> |   Devices mà customer đã cài đặt app của mình  |                     |              |
+        *                                   |   (smartphone, tablet, etc,...)                |<====================|              |
+        *                                   |                                                |                                    |
+        *                                   |________________________________________________|<===================================|
+        *
+        -->
+        <service android:name="elong.androidApp.services.chapter9FirebaseCloudMessage.Chapter9MyFirebaseMessagingServices" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" /> <!-- lắng nghe message gửi zề (BƯỚC 5) -->
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <!--
+                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+                clients to use it as well, by defining this registrar in their own core/common library.
+            -->
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service> <!-- Needs to be explicitly declared on P+ -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             but set to not exported to explicitly avoid allowing another app to call it.
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false" >
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct" />
+        </service>
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="elong.androidApp.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+        </service>
+
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false" />
+    </application>
+
+</manifest>

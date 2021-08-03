@@ -1,0 +1,2 @@
+elong/shared/BuildConfig.java
+ elong.shared.BuildConfig

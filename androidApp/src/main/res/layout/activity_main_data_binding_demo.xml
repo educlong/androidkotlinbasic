@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+        xmlns:bind="http://schemas.android.com/apk/res-auto">   <!--tạo 1 namsepace tên là bind-->
+    <data>  <!--Lớp User này sẽ đc đại diện bằng 1 biến đối tượng tên là user -->
+        <variable name="user" type="elong.modelView.mainActivityDataBindingDemo.User"/>
+
+        <!--cấu hình variable cho temperatureData-->
+        <variable name="temp" type="elong.modelView.mainActivityDataBindingDemo.TemperatureData"/>
+        <variable name="presenter" type="elong.modelView.PresenterData"/>
+
+        <!--cấu hình cho list-->
+        <variable name="header" type="elong.modelView.mainActivityDataBindingDemo.ListHeader"/><!--tiêu đề-->
+        <variable name="infos" type="elong.modelView.mainActivityDataBindingDemo.ListUserInfor"/><!--data kiểu list nạp lên listview-->
+    </data>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" tools:context=".MainActivityDataBindingDemo">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+            <TextView android:text="FName"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content" android:textSize="8sp"/>
+            <!--muốn truy xuất vào thuộc tính của user trong variable => dùng cú pháp @{...} như dưới-->
+            <EditText android:text="@{user.firstName}"
+                      android:layout_width="50dp" android:layout_height="wrap_content" android:textSize="8sp"/>
+            <TextView android:text="LName"
+                      android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="8sp"/>
+            <EditText android:text="@{user.lastName}"
+                      android:layout_width="50dp" android:layout_height="wrap_content" android:textSize="8sp"/>
+            <Button
+                    android:text="OK"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button3"
+                    android:layout_weight="1" android:textSize="8sp"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:orientation="vertical">
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:orientation="horizontal">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="@={temp.celsius}" android:textSize="8sp"/>
+                    <EditText android:layout_width="50dp" android:layout_height="wrap_content"
+                              android:text="@={temp.celsius}" android:textSize="8sp"/>
+                    <Button android:layout_width="60sp" android:layout_height="wrap_content"
+                            android:text="Temp"
+                            android:onClick="@{()->presenter.onShowData(temp)}" android:textSize="8sp"/>   <!--gán sự kiện cho button-->
+                </LinearLayout>
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:orientation="horizontal">
+                    <Button android:layout_width="50sp" android:layout_height="wrap_content" android:textSize="8sp"
+                            android:text="Add" android:onClick="@{infos::add}"/>
+                    <Button android:layout_width="60sp" android:layout_height="wrap_content" android:textSize="8sp"
+                            android:text="Remove" android:onClick="@{infos::remove}"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="vertical">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:textSize="10sp" android:textColor="@color/colorPrimaryDark"
+                          android:text="@{header.title}"/>
+                <Spinner android:layout_width="match_parent" android:layout_height="wrap_content"
+                         bind:item_databinding="@{infos.users}"/> <!--tự động tìm đến file ListBinder để setadapter cho Spinner-->
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</layout>

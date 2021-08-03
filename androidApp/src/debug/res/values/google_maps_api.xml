@@ -1,0 +1,35 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    Bước 2: mở file này ra và copy dòng api code này
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=C5:65:B6:5E:3D:1D:33:CA:30:D5:A4:00:C9:FF:68:8D:3C:B3:85:94%3Belong.androidApp
+    Bước 3: mở trình duyệt microsoft edge lên, paste dòng code này vào trình duyệt
+    Bước 4: (xử lý trong trình duyệt)
+        4.1: bấm continue và chờ
+        4.2: sau khi ra 1 màn hình mới -> nhấn chọn "Create API key"
+        4.3: sau khi ra màn hình mời, trong list API, có cột Key, copy key trong cột key
+    Bước 5: Quay trở lại file này, paste key vừa copy vào mục YOUR_KEY_NAME
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    elong.androidApp
+
+    SHA-1 certificate fingerprint:
+    C5:65:B6:5E:3D:1D:33:CA:30:D5:A4:00:C9:FF:68:8D:3C:B3:85:94
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">
+        <!--Bước 5: Paste key vừa copy vào đây-->
+        AIzaSyA88UNCb3AX9J5wpqQC98KvHRWgcQMpdIo
+        <!--Bước 6: để map trở thành 1 phần của activity -> quay trở lại file main.xml của map để xử lý (vào file activity_maps_chapter_8.xml)-->
+    </string>
+</resources>

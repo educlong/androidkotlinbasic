@@ -1,0 +1,4 @@
+#Thu Apr 29 03:28:13 EDT 2021
+base.0=D\:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

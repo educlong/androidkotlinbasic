@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <data>
+        <import type="android.view.View"/>
+        <variable name="receiveData" type="elong.modelView.mainActivityChapter23.ExplicitIntentsReceiveData"/>
+    </data>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".chapter2Activity.Chapter2SendDataActivity"
+            android:orientation="vertical">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtKetQuaSendDataIntent"
+                android:text="@={receiveData.resultSendDataIntent}"
+                tools:layout_editor_absoluteY="22dp"
+                tools:layout_editor_absoluteX="9dp"/>
+        <Button
+                android:text="Back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button2"
+                android:onClick="@{receiveData::backToChapter2Activity}"/>
+    </LinearLayout>
+</layout>

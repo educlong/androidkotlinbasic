@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivityWebserviceAndBonus" android:orientation="vertical">
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp">
+        <Spinner
+                android:layout_width="94dp"
+                android:layout_height="match_parent" android:id="@+id/spinnerCategoriesWebserviceBonus"/>
+        <Button
+                android:text="DemDm"
+                android:layout_width="51dp"
+                android:layout_height="wrap_content" android:id="@+id/btnDanhMucWebserviceBonus"
+                android:textSize="5sp"
+                android:elegantTextHeight="false" android:freezesText="false" android:textAllCaps="false"
+                android:layout_gravity="fill" android:gravity="clip_horizontal|center_horizontal"/>
+        <EditText
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/edtCodeDmWebserviceBonus"
+                android:layout_weight="1" android:hint="Ma" android:textSize="5sp"/>
+        <EditText
+                android:layout_width="34dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/edtNameDmWebserviceBonus" android:layout_weight="1" android:hint="Name"
+                android:textSize="5sp"/>
+        <Button
+                android:text="Add"
+                android:layout_width="40dp"
+                android:layout_height="match_parent" android:id="@+id/btnInsertUpdateDanhMucWebserviceBonus"
+                android:textSize="5sp"
+                android:elegantTextHeight="false" android:freezesText="false" android:textAllCaps="false"
+                android:layout_weight="1" android:gravity="clip_horizontal|center_horizontal"/>
+        <Button
+                android:text="Xóa"
+                android:layout_width="36dp"
+                android:layout_height="match_parent" android:id="@+id/btnDeleteDanhMucWebserviceBonus"
+                android:textSize="5sp"
+                android:elegantTextHeight="false" android:freezesText="false" android:textAllCaps="false"
+                android:layout_weight="1" android:gravity="clip_horizontal|center_horizontal"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/txtTotalCategoriesWebserviceBonus"
+                    android:layout_weight="1" android:textSize="5sp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/txtCategoryWebserviceBonus"
+                    android:layout_weight="1" android:textSize="5sp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp">
+        <EditText
+                android:layout_width="34dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:id="@+id/edtPriceFromSpWebserviceBonus"
+                android:layout_weight="1" android:hint="PriceFrom"
+                android:textSize="5sp"/>
+        <EditText
+                android:layout_width="34dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:id="@+id/edtPriceToSpWebserviceBonus"
+                android:layout_weight="1" android:hint="PriceTo"
+                android:textSize="5sp"/>
+        <Button
+                android:text="DemSP"
+                android:layout_width="51dp"
+                android:layout_height="wrap_content" android:id="@+id/btnSanPhamWebserviceBonus"
+                android:textSize="5sp"
+                android:elegantTextHeight="false" android:freezesText="false" android:textAllCaps="false"
+                android:layout_gravity="fill" android:gravity="clip_horizontal|center_horizontal"/>
+        <EditText
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/edtCodeSpWebserviceBonus"
+                android:layout_weight="1" android:hint="Ma" android:textSize="5sp"/>
+        <EditText
+                android:layout_width="34dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/edtNameSpWebserviceBonus" android:layout_weight="1" android:hint="Name"
+                android:textSize="5sp"/>
+        <EditText
+                android:layout_width="34dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:id="@+id/edtPriceSpWebserviceBonus"
+                android:layout_weight="1" android:hint="Price"
+                android:textSize="5sp"/>
+        <Button
+                android:text="Add"
+                android:layout_width="40dp"
+                android:layout_height="match_parent" android:id="@+id/btnInsertUpdateSanPhamWebserviceBonus"
+                android:textSize="5sp"
+                android:elegantTextHeight="false" android:freezesText="false" android:textAllCaps="false"
+                android:layout_weight="1" android:gravity="clip_horizontal|center_horizontal"/>
+        <Button
+                android:text="Xóa"
+                android:layout_width="36dp"
+                android:layout_height="match_parent" android:id="@+id/btnDeleteSanPhamWebserviceBonus"
+                android:textSize="5sp"
+                android:elegantTextHeight="false" android:freezesText="false" android:textAllCaps="false"
+                android:layout_weight="1" android:gravity="clip_horizontal|center_horizontal"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/txtTotalProductsWebserviceBonus"
+                    android:layout_weight="1" android:textSize="5sp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/txtProductWebserviceBonus"
+                    android:layout_weight="1" android:textSize="5sp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/spinnerProductsWebserviceBonus"/>
+    <TextView
+            android:text="Tỷ zá hối đoái Vietcombank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/txtSourceVietcombank" android:textSize="6sp"/>
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/spinnerVietcombank" android:contextClickable="false"/>
+    <TextView
+            android:text="Cập nhật vào lúc: "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/txtDateTimeVietcombank" android:textSize="6sp"/>
+</LinearLayout>

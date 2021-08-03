@@ -1,0 +1,374 @@
+[
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_frame_006.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\frame_006.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_date.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\date.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_sms.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\sms.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_activity.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\activity.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_callntd.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\callntd.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_chapter2_activity_sms_project.xml.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\layout\\activity_chapter2_activity_sms_project.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_frame_014.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\frame_014.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_maps_chapter_8.xml.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\layout\\activity_maps_chapter_8.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_frame_010.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\frame_010.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_item_chapter8_vochongtui_listview_for_gmap.xml.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\layout\\item_chapter8_vochongtui_listview_for_gmap.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_frame_021.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\frame_021.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_frame_002.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\frame_002.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_frame_003.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\frame_003.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_chapter4_animation_minions_effect.xml.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\chapter4_animation_minions_effect.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ball_002.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\ball_002.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_frame_029.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\frame_029.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_main_chapter1.xml.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\layout\\activity_main_chapter1.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_dodangyeu2.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\dodangyeu2.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_first.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\first.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_main_chapter_2_3.xml.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\layout\\activity_main_chapter_2_3.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_frame_013.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\frame_013.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_item_chapter1_gridview.xml.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\layout\\item_chapter1_gridview.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_chapter6_update_version_notification.xml.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\layout\\activity_chapter6_update_version_notification.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ball_007.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\ball_007.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_frame_018.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\frame_018.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_elong.jpg.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\elong.jpg"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_like.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\like.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_frame_009.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\frame_009.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_view.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\view.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_frame_015.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\frame_015.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_frame_022.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\frame_022.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ball_009.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\ball_009.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_item_chapter7_tygiadonga.xml.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\layout\\item_chapter7_tygiadonga.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_frame_028.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\frame_028.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_dodangyeu3.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\dodangyeu3.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ball_003.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\ball_003.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_go_to_image.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\go_to_image.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_chapter2_send_data_n_answer.xml.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\layout\\activity_chapter2_send_data_n_answer.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_dislikes.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\dislikes.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_item_chapter1_3_music.xml.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\layout\\item_chapter1_3_music.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ball_006.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\ball_006.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_chapter3_content_provider_read_sms.xml.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\layout\\activity_chapter3_content_provider_read_sms.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_last.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\last.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_main_webservice_and_bonus.xml.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\layout\\activity_main_webservice_and_bonus.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\anim_chapter4_xoay3scloseanimation.xml.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\anim\\chapter4_xoay3scloseanimation.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_frame_025.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\frame_025.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_frame_012.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\frame_012.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_detail.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\detail.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_chapter2_che_toan_bo.xml.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\layout\\activity_chapter2_che_toan_bo.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_frame_019.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\frame_019.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\menu_chapter4_menu_main.xml.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\menu\\chapter4_menu_main.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ball_008.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\ball_008.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_frame_023.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\frame_023.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_enhann.jpg.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\enhann.jpg"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_dodangyeu1.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\dodangyeu1.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_frame_027.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\frame_027.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\menu_chapter4_menu_search_main.xml.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\menu\\chapter4_menu_search_main.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_time.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\time.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\anim_chapter4_xoaycontrolanimation.xml.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\anim\\chapter4_xoaycontrolanimation.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_item_chapter8_vochongtui_gmap.xml.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\layout\\item_chapter8_vochongtui_gmap.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ball_004.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\ball_004.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_frame_008.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\frame_008.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_frame_016.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\frame_016.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ball_005.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\ball_005.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_frame_000.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\frame_000.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_main_chapter_4567.xml.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\layout\\activity_main_chapter_4567.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_frame_005.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\frame_005.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\notification_icon.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_next.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\next.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_frame_007.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\frame_007.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\menu_chapter4_contextmenu_main.xml.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\menu\\chapter4_contextmenu_main.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_frame_030.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\frame_030.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_frame_024.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\frame_024.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_frame_026.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\frame_026.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\animator_chapter4_project_game_ball_animation.xml.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\animator\\chapter4_project_game_ball_animation.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_frame_011.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\frame_011.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_dangxuat.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\dangxuat.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_item_databinding.xml.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\layout\\item_databinding.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_main_data_binding_demo.xml.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\layout\\activity_main_data_binding_demo.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_viewnactivity.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\viewnactivity.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\raw_tieng_thu_rung.mp3.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\raw\\tieng_thu_rung.mp3"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_chapter2_che1_phan.xml.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\layout\\activity_chapter2_che1_phan.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_chapter2_send_data.xml.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\layout\\activity_chapter2_send_data.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_item_chapter1237_lisview_advance.xml.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\layout\\item_chapter1237_lisview_advance.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_frame_017.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\frame_017.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_frame_004.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\frame_004.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_frame_001.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\frame_001.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_previous.jpg.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\previous.jpg"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_chapter3_content_provider_read_contact.xml.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\layout\\activity_chapter3_content_provider_read_contact.xml"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_frame_020.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\frame_020.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ball_001.png.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\drawable\\ball_001.png"
+    },
+    {
+        "merged": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\build\\intermediates\\res\\merged\\debug\\anim_chapter4_xoayscreenanimation.xml.flat",
+        "source": "D:\\CodDevProgTeaching\\AndroidDevelop\\androidKotlin\\androidApp\\src\\main\\res\\anim\\chapter4_xoayscreenanimation.xml"
+    }
+]
